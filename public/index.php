@@ -2,7 +2,7 @@
 require_once "../vendor/autoload.php";
 
 /*
- * Autoloader de Classe
+ * Autoloader de Classe fichier de fabien a modifier
  */
 function chargerClasse($classe){
     //Séparateur répertoire : "\" "/"
