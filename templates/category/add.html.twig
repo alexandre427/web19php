@@ -1,0 +1,29 @@
+{% extends "base.html.twig" %}
+
+{% block body %}
+    <h1>Ajout de catégorie :</h1>
+    <form method="post">
+
+        <div class="form-group">
+        <label for="Category">Quel est ta catégorie</label>
+        <input class="form-control" type="text" name="CategoryName">
+        </div>
+
+        <div class="form-group">
+        <label for="Category">Quel est votre icon ?</label>
+        <input class="form-control" type="icon" name="CategorySlug">
+        </div>
+
+        <div class="form-group">
+        <input class="btn btn-primary" type="submit" value="Enregistrer les modifications">
+        </div>
+
+
+        <div>
+            <p>Exemple d'icon</p>
+            <p>fas fa-bars</p>
+            <p>fab fa-angrycreative</p>
+        </div>
+    </form>
+
+{% endblock %}

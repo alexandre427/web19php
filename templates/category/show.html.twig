@@ -1,0 +1,10 @@
+{% extends "base.html.twig" %}
+
+{% block body %}
+    <h1>Détail de la catégorie </h1>
+    <span style="font-size: 5em;"  class="{{ category.CategorySlug }}"></span>
+    <p>{{ category.CategoryName }}</p>
+    <p><a href="/categorie/update/{{ category.CategoryId }}"> Modifier ce super Article </a></p>
+    <p><a href="/categorie/delete/{{ category.CategoryId }}"> Supprimer ce super Article </a></p>
+
+{% endblock %}
